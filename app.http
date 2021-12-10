@@ -1,0 +1,9 @@
+POST http://localhost:3001/saveblogs/
+Content-Type: application/json
+
+{
+  "id": 30,
+  "tittle" : "sample",
+  "body": "sample explanation posted",
+  "userId": 13
+}
